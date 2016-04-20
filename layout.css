@@ -1,0 +1,88 @@
+body {
+    background-image: url(img/background.jpg);
+    background-repeat:no-repeat;
+    background-position: center center;
+    background-attachment:fixed;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: cover;
+    font-family: Candara,Calibri,Segoe,Segoe UI,Optima,Arial,sans-serif;
+    overflow: visible;
+}
+
+div#wrap {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    min-width: 600px;
+}
+
+div#content {
+    width: 37%;
+    min-width: 275px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-top: 30px;
+    margin-right: 10px;
+}
+
+div#logo {
+    margin-bottom: 3em;
+}
+
+img#logo {
+    width: 200px;
+    height: auto;
+}
+
+div#desc {
+    margin-bottom: 4em;
+}
+
+h1 {
+    font-size: 160%;
+    font-weight: normal;
+}
+
+h2 {
+    font-size: 110%;
+    font-weight: normal;
+    margin-top: 4em;
+}
+
+p {
+    line-height: 1.4em;
+    margin-top: 2em;
+}
+
+p.neu {
+    font-size: 110%;
+}
+
+p.coop {
+    font-size: 80%;
+}
+
+a {
+    text-decoration: none;
+    color: #08298A;
+}
+
+span.mark {
+    font-weight: bold;
+}
+
+@media screen and (max-width: 620px)  {
+    body {
+        background: none
+    }
+    div#content {
+        width: 100%;
+        margin-right: 0px;
+        min-width: 600px;
+    }
+}
